@@ -1,0 +1,3 @@
+intent("When will the next update be?", "When will you update?", p=> {
+    p.play("A project is never finished you can always improve, so i can ensure you there will be updates in the future");
+});

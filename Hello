@@ -1,0 +1,13 @@
+intent("What can you do?", "What do you do?", "What are you able to do?",  p => {
+       p.play("You can do many things like ask for the weather, play Jeopardy, Calculate maths, Hear the news and more");
+});
+
+intent("Goodbye", "Bye", p => {
+    p.play("Bye, Have a nice day");
+});
+
+intent("Hello", "Hi", p => {
+    p.play("Hello there Human");
+});
+
+
